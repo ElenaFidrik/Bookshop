@@ -1,0 +1,25 @@
+@import 'advertisingStyles';
+@import 'booksStyles';
+@import 'media';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    margin: 0 auto;
+    font-family: $mainfont;
+}
+
+.wrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.main {
+    position: absolute;
+    top: 116px;
+}

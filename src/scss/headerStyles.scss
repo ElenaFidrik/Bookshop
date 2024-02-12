@@ -1,0 +1,52 @@
+@import 'mixines';
+
+.header {   
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    background-color: $header-background;
+    z-index: 10;
+}
+
+.header__wrap {
+    max-width: 1120px;
+    margin-top: 47px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    color: $text-color-bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header__list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.header__link {
+    @include link;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.header__link:hover {
+    color: $text-color-bold;
+    font-weight: 900;
+}
+
+.header__btns_wrap {
+    display: flex;
+    gap: 35px;
+}
+
+.header__btn {
+    border: none;
+    cursor: pointer;
+}

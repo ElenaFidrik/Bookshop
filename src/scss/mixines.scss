@@ -1,0 +1,22 @@
+@import 'variables';
+
+@mixin book-button {
+    width: $btn-width;
+    height: $btn-height;
+    border: $btn-border;
+    color: $btn-color;
+    font-family: $mainfont;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin link {
+    color: $text-color;
+    line-height: normal;
+    text-decoration: none;
+}
